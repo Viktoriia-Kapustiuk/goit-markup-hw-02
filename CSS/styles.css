@@ -4,7 +4,6 @@
   --accent-color:#757575;
   --title-color: #212121;
 }
-
 body {
   background-color: #e5e5e5;
   font-family: var(--text-font);
@@ -17,7 +16,6 @@ Font-size: 26px;
 Line-height: 1.192;
 Letter spacing:0.03em;
 }
-
 .logo-web {
     color: #2196F3;
 }
@@ -83,6 +81,7 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 }
+/*===============header================================*/
 
 .title {
 font-family:var(--text-font);
@@ -147,8 +146,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: ;
 letter-spacing: 0.03em;
-
-color: #212121;
+color: var(--title-color);
 }
 .buttons-list-item-btn:hover,
 .buttons-list-item-btn:focus {
@@ -175,4 +173,3 @@ letter-spacing: 0.03em;
 
 color: var(--accent-color);
 }
-/*=================
