@@ -3,9 +3,10 @@
   --logo-font: "relaway", sans-serif;
   --accent-color:#757575;
   --title-color: #212121;
+  --white-text-color: #ffffff
 }
 body {
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
   font-family: var(--text-font);
   font-style: normal;
 }
@@ -15,6 +16,7 @@ Font-family:var(--logo-font);
 Font-style: 700;
 Font-size: 26px;
 Line-height: 1.192;
+text-decoration: none;
 Letter spacing:0.03 em;
 }
 .logo-web {
@@ -34,35 +36,32 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
-
 color:var(--title-color);
-
+text-decoration: none;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
     color: #2196F3;
 }
 
-.tel-link, 
-.mail-link {
+.list {
+  list-style: none;
+}
+
+.header .info {
 font-family: var(--text-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
+text-decoration: none;
 letter-spacing: 0.02em;
-
-color: var(--accent-color)
-
+color: var(--accent-color);
 }
-.tel-link:hover, 
-.tel-link:focus {
+.info:hover, 
+.info:focus {
 color: #2196F3;
 }
 
-.mail-link:hover,
-.mail-link:focus {
-color: #2196F3;
-}
 .address-list-item-link {
 font-family:var(--text-font);
 font-weight: normal;
@@ -85,6 +84,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 /* hero*/
+.hero {
+  background-color: #2F303A;;
+}
 .title {
 font-family:var(--text-font);
 font-weight: 900;
@@ -112,6 +114,9 @@ background: #2196F3;
 }
 
 /* items */
+.items .about-us {
+  background-color: #E5E5E5;;
+}
 .items-title {
 font-family:var(--text-font);
 font-weight: 700;
@@ -119,8 +124,15 @@ font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-color:var(--accent-color);
+color:var(--title-color)
+}
+.items-text {
+font-family:var(--text-font)
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /* about us */
@@ -137,6 +149,9 @@ color:var(--title-color);
 }
 
 /* our team */
+.our-team {
+  background-color: #F5F4FA;;
+}
 .our-team-positions {
 font-family: var(--text-font);
 font-weight: normal;
@@ -182,4 +197,29 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 
 color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2F303A;;
+}
+.footer .adress {
+font-family:var(--text-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color:var(--white-text-color);
+}
+.footer .info {
+font-family:var(--text-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+text-decoration: none;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
