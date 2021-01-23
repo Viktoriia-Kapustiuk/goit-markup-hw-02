@@ -11,10 +11,6 @@ body {
   font-family: var(--text-font);
   font-style: normal;
 }
-.main {
-  background-color: #E5E5E5;;
-}
-
 /* Components */
 
 .address {
@@ -211,5 +207,8 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--main-color);
+}
+.main {
+  background-color: #E5E5E5;;
 }
 
