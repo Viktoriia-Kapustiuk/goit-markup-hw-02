@@ -23,7 +23,7 @@ body {
 Font-family:var(--logo-font);
 font-weight: 700;
 Font-size: 26px;
-Line-height: 1.88;
+Line-height: 1.19;
 text-decoration: none;
 Letter spacing: 0.03 em;
 }
@@ -94,7 +94,6 @@ line-height: 2;
 text-decoration: none;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
 }
 
 .link {
@@ -182,6 +181,7 @@ font-size: 16px;
 line-height: 1.625;
 letter-spacing: 0.03em;
 color: var(--title-color);
+cursor: pointer;
 }
 .buttons-list-item-btn:hover,
 .buttons-list-item-btn:focus {
@@ -207,8 +207,5 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--main-color);
-}
-.main {
-  background-color: #E5E5E5;;
 }
 
